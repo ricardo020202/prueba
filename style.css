@@ -1,0 +1,59 @@
+
+.parallax {
+    /* The image */
+    background-image: url("./img/black-sand.jpg");
+  
+    /* Height */
+    height: 700px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.Logo{
+    width: 400px;
+}
+
+.Logo-mobile{
+    width: 300px;
+    margin-top: 150px;
+}
+
+.height{
+    height: 50%;
+}
+
+.bg{
+    background-color: #e0e0e0;
+}
+
+.card{
+    background-color: transparent;
+    border: none;
+}
+
+.bg2{
+    background-color: #bdbdbd;
+}
+
+.social1{
+    width: 50px;
+}
+
+.social2{
+    width: 65px;
+}
+
+.bullet{
+    width: 60px;
+    margin-left: 38%;
+}
+
+.float{
+    position: fixed;
+    right: 10px;
+    bottom: 20px;
+}

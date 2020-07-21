@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./img/Favicon_essenz.png" type="image/x-icon">
+    <title>Essenz Studio</title>
+</head>
+
+<body>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Registro</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form method="post" action="send.php">
+                        <div class="form-group">
+                          <label for="Name">Nombre</label>
+                          <input type="text" class="form-control" id="Name" required="required">
+                        </div>
+                        <div class="form-group">
+                            <label for="Email">Email </label>
+                            <input type="email" class="form-control" id="Email" aria-describedby="emailHelp" required="required">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                          </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                      </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Header-->
+    <div class="container-fluid parallax">
+
+        <div class="row align-items-center height">
+            <div class="col">
+
+                <h1 class="text-center text-white">
+                    Cómo tú puedes llevar un espacio de tu tienda o negocio de lo ordinario a lo instagrameable.
+                    <br>
+                    Enamora a tus clientes y logra una autopromoción en redes.
+                </h1>
+
+            </div>
+        </div>
+
+        <div class="row align-items-center justify-content-center height">
+
+            <img src="./img/Logo_Essenz_sinfondo.png" alt="" class="Logo rounded d-none d-sm-none d-md-block">
+            <img src="./img/Logo_Essenz_sinfondo.png" alt="" class="Logo-mobile rounded d-block d-sm-block d-md-none">
+
+        </div>
+
+    </div>
+
+    <!-- Button modal -->
+    <button type="button" class="btn btn-transparent float" data-toggle="modal" data-target="#exampleModal">
+        <img src="./img/register.png" alt="" class="social2">
+    </button>
+    <!--Header-->
+
+
+    <!--Main Content-->
+    <div class="container-fluid bg">
+
+        <div class="container bg">
+
+            <div class="row justify-content-center">
+                <h3 class="text-center mt-5">¡Registrate para la siguiente Masterclass!</h3>
+            </div>
+
+            <div class="row justify-content-center">
+
+                <h4 class="text-center mt-5">
+                    Lo que aprenderás en esta sesión:
+                </h4>
+
+            </div>
+
+            <div class="row justify-content-around">
+
+                <div class="card mt-5 mb-5" style="width: 16rem" ;>
+                    <img src="./img/Favicon_essenz.png" class="card-img-top bullet" alt="...">
+                    <div class=" card-body">
+                        <h5 class="text-center">Porque un buen producto / servicio ya no es suficiente</h5>
+                        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum dicta
+                            minima
+                            officia et quibusdam placeat aut reprehenderit nesciunt? Facere animi nihil nulla officia
+                            deleniti
+                            corporis consequatur nisi? Iusto, accusantium facilis.</p>
+                    </div>
+                </div>
+
+                <div class="card mt-5 mb-5" style="width: 16rem;">
+                    <img src="./img/Favicon_essenz.png" class="card-img-top bullet" alt="...">
+                    <div class="card-body">
+                        <h5 class="text-center">Tips para crear un “instagram corner”</h5>
+                        <p class="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae quas
+                            dolorem
+                            asperiores minima delectus quaerat possimus voluptatibus sit, nemo inventore expedita ex
+                            deleniti
+                            enim natus aliquam. Ipsa id repellat porro.</p>
+                    </div>
+                </div>
+
+                <div class="card mt-5 mb-5" style="width: 16rem;">
+                    <img src="./img/Favicon_essenz.png" class="card-img-top bullet" alt="...">
+                    <div class=" card-body">
+                        <h5 class="text-center">5 secretos de Starbucks</h5>
+                        <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+                            nihil eius
+                            iusto
+                            soluta atque saepe est maxime nam veritatis placeat exercitationem, a rem?
+                            Voluptatum ab
+                            aperiam
+                            ratione corporis! Quod, expedita.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--Main Content-->
+
+
+    <!--Known the instructor-->
+    <div class="container-fluid bg2">
+
+        <div class="container bg2">
+
+            <div class="row justify-content-center">
+                <h3 class="text-center mt-5">
+                    Conoce a tu instructora
+                </h3>
+            </div>
+
+            <div class="row justify-content-center mt-5">
+                <img src="" alt="">
+            </div>
+
+            <div class="row justify-content-center mt-5">
+                <h2 class="text-center">Laura Elisa Rosales Castañeda</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <p class="text-center">
+                    Creadora de Essenz Studio. <br>
+                    Diseñadora industrial por el ITESM. <br>
+                    Enfocada en diseño de interiores y de experiencias. <br>
+                    Apasionada del diseño y de utilizarlo como herramienta para solucionar problemas de manera creativa. 
+                </p>
+            </div>
+
+            <div class="row justify-content-center mt-5">
+                <h5 class="text-center">Conectate con nosotros</h5>
+            </div>
+
+            <div class="row align-items-center justify-content-center">
+
+                <a href="https://www.facebook.com/EssenzStudioMX/"><img src="./img/facebook.png" alt=""
+                        class="social1 mb-5"></a>
+
+
+                <a href="https://www.instagram.com/essenzstudiomx/"><img src="./img/instagram.png" alt=""
+                        class="social2 mb-5"></a>
+
+            </div>
+
+        </div>
+
+    </div>
+    <!--Known the creator-->
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
