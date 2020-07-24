@@ -1,10 +1,14 @@
+@font-face {font-family: "FenomenSans-Book"; src: url("//db.onlinewebfonts.com/t/33d8796f3057e0a2042961cd52cb93f8.eot"); src: url("//db.onlinewebfonts.com/t/33d8796f3057e0a2042961cd52cb93f8.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/33d8796f3057e0a2042961cd52cb93f8.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/33d8796f3057e0a2042961cd52cb93f8.woff") format("woff"), url("//db.onlinewebfonts.com/t/33d8796f3057e0a2042961cd52cb93f8.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/33d8796f3057e0a2042961cd52cb93f8.svg#FenomenSans-Book") format("svg"); }
+.H1,h2,h3,h4,h5,h6{font-family: FenomenSans-Book;}
 
+@font-face {font-family: "FenomenSans-Light"; src: url("//db.onlinewebfonts.com/t/3d0d4d2a7ef2e9f5ec8429add91b0529.eot"); src: url("//db.onlinewebfonts.com/t/3d0d4d2a7ef2e9f5ec8429add91b0529.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/3d0d4d2a7ef2e9f5ec8429add91b0529.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/3d0d4d2a7ef2e9f5ec8429add91b0529.woff") format("woff"), url("//db.onlinewebfonts.com/t/3d0d4d2a7ef2e9f5ec8429add91b0529.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/3d0d4d2a7ef2e9f5ec8429add91b0529.svg#FenomenSans-Light") format("svg"); }
+.p{font-family: FenomenSans-Light;}
 .parallax {
     /* The image */
     background-image: url("./img/black-sand.jpg");
   
     /* Height */
-    height: 700px;
+    height: 800px;
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -14,12 +18,12 @@
   }
 
 .Logo{
-    width: 400px;
+    width: 300px;
 }
 
 .Logo-mobile{
-    width: 300px;
-    margin-top: 150px;
+    width: 170px;
+    margin-top: 220px;
 }
 
 .height{
@@ -55,5 +59,11 @@
 .float{
     position: fixed;
     right: 10px;
-    bottom: 20px;
+    bottom: 30px;
+    width: 90px;
+    height: 90px;
+}
+
+.photo{
+    width: 300px;
 }

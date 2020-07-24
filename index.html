@@ -8,7 +8,11 @@
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="./img/Favicon_essenz.png" type="image/x-icon">
-    <title>Essenz Studio</title>
+    <link href="//db.onlinewebfonts.com/c/33d8796f3057e0a2042961cd52cb93f8?family=FenomenSans-Book" rel="stylesheet"
+        type="text/css" />
+    <link href="//db.onlinewebfonts.com/c/3d0d4d2a7ef2e9f5ec8429add91b0529?family=FenomenSans-Light" rel="stylesheet"
+        type="text/css" />
+    <title>Elisa Rosales | Webinar</title>
 </head>
 
 <body>
@@ -24,17 +28,27 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <form action="mailto:ricoroca2@hotmail.com" method="post" enctype="text/plain">
+                    <form method="post" action="send.php">
                         <div class="form-group">
-                          <label for="Name">Nombre</label>
-                          <input type="text" class="form-control" id="Name" required="required">
+                            <label for="Name">Nombre</label>
+                            <input type="text" name="nombre" class="form-control" id="Name" required="required">
                         </div>
                         <div class="form-group">
                             <label for="Email">Email </label>
-                            <input type="email" class="form-control" id="Email" aria-describedby="emailHelp">
-                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                            <input type="email" mail="email" class="form-control" id="Email"
+                                aria-describedby="emailHelp" required="required">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlSelect1">Fecha</label>
+                            <select class="form-control" id="exampleFormControlSelect1">
+                              <option>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                              <option>5</option>
+                            </select>
                           </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <button type="submit" class="btn btn-dark">Enviar</button>
                     </form>
                 </div>
             </div>
@@ -50,7 +64,10 @@
                 <h1 class="text-center text-white">
                     Cómo tú puedes llevar un espacio de tu tienda o negocio de lo ordinario a lo instagrameable.
                     <br>
-                    Enamora a tus clientes y logra una autopromoción en redes.
+                    Enamora a tus clientes y logra una autopromoción en redes
+                    <br>
+                    sin gastar una fortuna.
+
                 </h1>
 
             </div>
@@ -58,17 +75,17 @@
 
         <div class="row align-items-center justify-content-center height">
 
-            <img src="./img/Logo_Essenz_sinfondo.png" alt="" class="Logo rounded d-none d-sm-none d-md-block">
-            <img src="./img/Logo_Essenz_sinfondo.png" alt="" class="Logo-mobile rounded d-block d-sm-block d-md-none">
+            <img src="./img/ElisaR_logo-01.png" alt="" class="Logo rounded d-none d-sm-none d-md-block">
+            <img src="./img/ElisaR_logo-01.png" alt="" class="Logo-mobile rounded d-block d-sm-block d-md-none">
 
         </div>
 
     </div>
 
     <!-- Button modal -->
-    <button type="button" class="btn btn-transparent float" data-toggle="modal" data-target="#exampleModal">
-        <img src="./img/register.png" alt="" class="social2">
-    </button>
+    <button type="button" class="btn btn-dark float rounded-pill text-center" data-toggle="modal"
+        data-target="#exampleModal">Inscribete</button>
+
     <!--Header-->
 
 
@@ -95,11 +112,8 @@
                     <img src="./img/Favicon_essenz.png" class="card-img-top bullet" alt="...">
                     <div class=" card-body">
                         <h5 class="text-center">Porque un buen producto / servicio ya no es suficiente</h5>
-                        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum dicta
-                            minima
-                            officia et quibusdam placeat aut reprehenderit nesciunt? Facere animi nihil nulla officia
-                            deleniti
-                            corporis consequatur nisi? Iusto, accusantium facilis.</p>
+                        <p class="text-center">Te voy a enseñar por qué derribar esta idea te ayudará a conseguir y
+                            retener a tus clientes a largo plazo. </p>
                     </div>
                 </div>
 
@@ -107,11 +121,8 @@
                     <img src="./img/Favicon_essenz.png" class="card-img-top bullet" alt="...">
                     <div class="card-body">
                         <h5 class="text-center">Tips para crear un “instagram corner”</h5>
-                        <p class="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae quas
-                            dolorem
-                            asperiores minima delectus quaerat possimus voluptatibus sit, nemo inventore expedita ex
-                            deleniti
-                            enim natus aliquam. Ipsa id repellat porro.</p>
+                        <p class="text-center">Vas a aprender a crear un espacio en tu punto de venta que va a
+                            sorprender y enamorar a tus clientes al punto de generar una autopromoción en redes.</p>
                     </div>
                 </div>
 
@@ -119,14 +130,8 @@
                     <img src="./img/Favicon_essenz.png" class="card-img-top bullet" alt="...">
                     <div class=" card-body">
                         <h5 class="text-center">5 secretos de Starbucks</h5>
-                        <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-                            nihil eius
-                            iusto
-                            soluta atque saepe est maxime nam veritatis placeat exercitationem, a rem?
-                            Voluptatum ab
-                            aperiam
-                            ratione corporis! Quod, expedita.
-                        </p>
+                        <p class="text-center">Aprenderás la estrategia que este gigante de las franquicias aplica en
+                            sus puntos de venta y cómo tú puedes aplicarlo a tu negocio.</p>
                     </div>
                 </div>
 
@@ -148,11 +153,11 @@
             </div>
 
             <div class="row justify-content-center mt-5">
-                <img src="" alt="">
+                <img src="./img/foto elisa circulo-01.png" alt="" class="photo">
             </div>
 
             <div class="row justify-content-center mt-5">
-                <h2 class="text-center">Laura Elisa Rosales Castañeda</h2>
+                <h2 class="text-center">Elisa Rosales</h2>
             </div>
 
             <div class="row justify-content-center">
@@ -160,18 +165,18 @@
                     Creadora de Essenz Studio. <br>
                     Diseñadora industrial por el ITESM. <br>
                     Enfocada en diseño de interiores y de experiencias. <br>
-                    Apasionada del diseño y de utilizarlo como herramienta para solucionar problemas de manera creativa. 
+                    Apasionada del diseño y de utilizarlo como herramienta para solucionar problemas de manera creativa.
                 </p>
             </div>
 
             <div class="row justify-content-center mt-5">
-                <h5 class="text-center">Conectate con nosotros</h5>
+                <h5 class="text-center">Conectate conmigo</h5>
             </div>
 
             <div class="row align-items-center justify-content-center">
 
-                <a href="https://www.facebook.com/EssenzStudioMX/"><img src="./img/facebook.png" alt=""
-                        class="social1 mb-5"></a>
+                <a href="https://www.facebook.com/ElisaRosalesDI/?ref=br_tf&epa=SEARCH_BOX"><img
+                        src="./img/facebook.png" alt="" class="social1 mb-5"></a>
 
 
                 <a href="https://www.instagram.com/essenzstudiomx/"><img src="./img/instagram.png" alt=""
