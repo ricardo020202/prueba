@@ -23,7 +23,7 @@
 
 .Logo-mobile{
     width: 170px;
-    margin-top: 220px;
+    margin-top: 0px;
 }
 
 .height{
@@ -66,4 +66,8 @@
 
 .photo{
     width: 300px;
+}
+
+.ig{
+    height: 500px;
 }
